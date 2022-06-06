@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bien Reviews - the best restaurant reviews in the world</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <header>
+      <h1>Bien Reviews</h1>
+      <h2>The best restaurant reviews in the world.</h2>
+    </header>
+    <%= yield %>
+    <footer>Bien Reviews Copyright 2022</footer>
+  </body>
+</html>
